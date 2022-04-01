@@ -8,7 +8,7 @@ do
 
     if [ $find_file ]     # if the file or directory exists
     then
-        echo "Output of ls -l $file:"
+        echo "Output of ls -i $file:"
         ls -i "$find_file"
 
     else                  # if the file or directory does not exist
